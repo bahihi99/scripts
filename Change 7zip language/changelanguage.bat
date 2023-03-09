@@ -2,6 +2,10 @@
 
 set list=en fr it pt de nl
 
+if /i "%1" == "/h" (
+    goto :showHelp
+)
+
 if "%1"=="" (
     set /p lang="choose a language: "
 ) else (
@@ -18,6 +22,8 @@ for %%a in (%list%) do (
 )
 
 echo please enter a valid language code.
+
+:showHelp
 echo language codes available: [%list%]
 
 pause
