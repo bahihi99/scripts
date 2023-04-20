@@ -4,3 +4,5 @@ Ce dépôt GitHub contient des exercices réalisés pendant le cours OSL. Le cou
 
 ## Contenu
 Les exercices sont organisés en dossiers, chacun représentant un sujet différent abordé dans le cours. Chaque dossier contient un ou plusieurs fichiers.
+
+oue gros
